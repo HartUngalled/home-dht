@@ -1,10 +1,10 @@
+--- WIFI config ---
+WIFI_SSID = --- Enter your wifi ssid here
+WIFI_PASS = --- Enter your wifi password here
+
 --- Constants ---
 FILE_TO_EXECUTE = "dht.lua"
 SLEEP_TIME_US = 30 * 1000 * 1000
-
---- test WIFI config ---
-WIFI_SSID = "MyWiFiSSID"
-WIFI_PASS = "MyWiFiPASS"
 
 --- Connect to WiFi ---
 wifi.setmode(wifi.STATION)
